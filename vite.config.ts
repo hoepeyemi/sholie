@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     allowedHosts: [
-      'dumiol.vercel.app',
+      'Sholie.vercel.app',
       // Add any other hosts you need to allow
       'localhost',
     ],
