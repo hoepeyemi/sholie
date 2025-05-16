@@ -20,7 +20,7 @@ const DynamicSelfComponents: React.FC<DynamicSelfComponentsProps> = ({
 
     try {
       const app = new SelfAppBuilder({
-        appName: process.env.NEXT_PUBLIC_SELF_APP_NAME || "Sholie BATTLE ARENA",
+        appName: process.env.NEXT_PUBLIC_SELF_APP_NAME || "SHOLIE BATTLE ARENA",
         scope: process.env.NEXT_PUBLIC_SELF_SCOPE || "Sholie-battle-arena",
         endpoint: `${window.location.origin}/api/self/callback`,
         userId,
